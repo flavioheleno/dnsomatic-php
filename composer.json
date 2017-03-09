@@ -1,0 +1,27 @@
+{
+    "name": "flavioheleno/dnsomatic-php",
+    "description": "DNS-O-Matic PHP Client",
+    "license": "mit",
+    "type": "library",
+    "keywords": ["dynamic dns", "ddns", "dns", "dns-o-matic", "opendns"],
+    "authors": [
+        {
+            "name": "Flavio Heleno",
+            "email": "flaviohbatista@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "dnsomatic\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\": "test/"
+        }
+    },
+    "require": {
+        "php": ">=7.1",
+        "guzzlehttp/guzzle": "^6.2"
+    }
+}
