@@ -70,7 +70,7 @@ try {
 
     file_put_contents(
         LOG_FILE,
-        $logLine,
+        $logLine . PHP_EOL,
         FILE_APPEND | LOCK_EX
     );
 } finally {
