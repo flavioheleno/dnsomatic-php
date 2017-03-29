@@ -44,7 +44,7 @@ php composer.phar require flavioheleno/dnsomatic-php
 After installing, you need to require Composer's autoloader:
 
 ```php
-require 'vendor/autoload.php`;
+require 'vendor/autoload.php';
 ```
 
 ## License
